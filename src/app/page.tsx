@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div>
 
-
+<div>
       <figure className="md:flex bg-red-200 rounded-non p-8 md:p-0 dark:bg-slate-800">
   <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-auto rounded-full ml-auto" src="/pic.jpg" alt="" width="384" height="512"/>
   <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
@@ -28,11 +28,11 @@ const page = () => {
   </div>
 </figure>
 
+</div>
 
+<br />
 
-
-
-
+<div>
 
 <figure className="flex flex-col items-center bg-red-200 rounded-xl p-6 dark:bg-slate-800">
   
@@ -41,7 +41,13 @@ const page = () => {
     src="/pic.jpg"
     alt="Profile"
   />
-
+<blockquote>
+      <p className="text-lg font-medium text-white-500 dark:text-sky-600 text-sm font-bold">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams.        It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
   <figcaption className="text-center">
     <div className="text-2xl font-bold text-red-600 dark:text-sky-400">
       Ghulam Abbas
@@ -52,14 +58,14 @@ const page = () => {
   </figcaption>
 
 </figure>
+</div>
+
+
+<br /><br />
 
 
 
-
-
-
-
-
+<div>
 
 <figure className="flex bg-red-200 rounded-xl p-6 dark:bg-slate-800">
 
@@ -68,7 +74,13 @@ const page = () => {
 
   
   <div className="ml-auto flex flex-col items-center text-center">
-
+<blockquote>
+      <p className="text-lg font-medium text-white-500 dark:text-sky-600 text-sm font-bold">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams.        It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
     <img
       className="w-24 h-24 md:w-40 md:h-40 rounded-full mb-3"
       src="/pic.jpg"
@@ -88,7 +100,7 @@ const page = () => {
 </figure>
 
 
-
+</div>
     </div>
   )
 }
